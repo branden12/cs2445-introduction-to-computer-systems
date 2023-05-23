@@ -1,16 +1,15 @@
 
-# Homework 1
+# Homework 2
 
 ## Purpose
 
-The purpose of this assignment is to practice converting
+The purpose of this homework assignment is 
 
-- a decimal number to a binary number and vice versa
+- to practice twos-complement presentations
 
-- a binary number to a hexadecimal number and vice versa
+- to perform twos-complement arithmetic
 
-- and a decimal number to a hexadecimal number and vice versa.
-
+- to present decimal numbers to IEEE 754 standard single-precision floating-point format
 
 ## Tasks
 
@@ -18,67 +17,44 @@ The purpose of this assignment is to practice converting
 
 #### N/A
 
-##### Convert the following decimal numbers to their binary numbers
+##### Present the following decimal numbers in twos complements.
 
-- 27 (base 10)
-- 53 (base 10)
-- 63 (base 10)
-- 145 (base 10)
-- 253 (base 10)
-- 12.5 (base 10)
-- 25.25 (base 10)
-- 43.625 (base 10)
-- 125.125 (base 10)
-- 206.02 (base 10)
+| Decimal Number  | Twos Complements | 
+| ------------- | ------------- |
+| 25 |  |
+| -25 |  |
+| 125 |  |
+| -125 |  |
+| 53.5 |  |
+| -53.5 |  |
+| 62.25 |  |
+| -62.25 |  |
+| -53.5 |  |
+| -53.5 |  |
 
-##### Convert the following binary numbers to their decimal numbers.
+##### Perform twos complement arithmetic for the followings.
 
-- 0000 1010 (base 2)
-- 1010 1010 (base 2)
-- 1100 1010 (base 2)
-- 1000 1110 (base 2)
-- 1101 1110 (base 2)
-- 0101 1010.1000 0000 (base 2)
-- 0010 1110.0101 0000 (base 2)
-- 0101 0110.1010 1000 (base 2)
-- 1010 1010.0011 0000 (base 2)
-- 1111 1110.0110 1100 (base 2)
+- 37 - 45 
+- 52 - 35 
+- 115 - 75
+- 91 - 78
+- -17 + 32
+- -17 + (-31)
+- 51 - 78
+- -19 + 35
+- -71 + (-31)
+- 120 + (-127)
 
-##### Convert the following binary numbers to their hexadecimal numbers.
+##### Present the following decimal numbers to IEEE 754 Binary 32 format.
 
-- 1000 1010 (base 2)
-- 1011 1010 (base 2)
-- 1010 1010 (base 2)
-- 1100 1110 (base 2)
-- 0111 1110 (base 2)
-- 0101 1010.1000 0000 (base 2)
-- 0010 1110.0101 0000 (base 2)
-- 0101 0110.1010 1000 (base 2)
-- 1010 1010.0011 0000 (base 2)
-- 1111 1110.0110 1100 (base 2)
+| Decimal Number  | Twos Complements | Mantissa (trailling significancd) | 
+| ------------- | ------------- | ------------- |
+| 1 bit (31) | 8 bits (30 - 32) | 23 bits (22 - 0) |
 
-##### Convert the following hexadecimal numbers to their binary numbers.
-
-- AC (base 16)
-- 1C (base 16)
-- F7 (base 16)
-- D9 (base 16)
-- BE.A0 (base 16)
-- 7D.67 (base 16)
-- 3F.F1 (base 16)
-- 123.45 (base 16)
-- A64.BC (base 16)
-- 239.C4 (base 16)
-
-##### Convert the following decimal numbers to their hexadecimal numbers.
-
-- 27 (base 10)
-- 53 (base 10)
-- 63 (base 10)
-- 145 (base 10)
-- 253 (base 10)
-- 12.5 (base 10)
-- 25.25 (base 10)
-- 43.625 (base 10)
-- 125.125 (base 10)
-- 206.02 (base 10)
+- 12.5
+- 13.25
+- 14.626
+- 15.125
+- 16.1
+- 17.2
+- 18.02
